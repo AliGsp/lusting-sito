@@ -1,0 +1,1116 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: "AvenirDemi";
+	src: url("../assets/font/AvenirNextLTPro-Demi.otf");
+	}
+@font-face {
+	font-family: "AvenirRegular";
+	src: url("../assets/font/AvenirNextLTPro-Regular.otf");
+	}
+@font-face {
+	font-family: "MigraLight";
+	src: url("../assets/font/Migra-Light.ttf");
+	}
+@font-face {
+	font-family: "MigraRegular";
+	src: url("../assets/font/Migra-Regular.ttf");
+	}
+@font-face {
+	font-family: "MigraSemibold";
+	src: url("../assets/font/Migra-Semibold.ttf");
+	}
+@font-face {
+	font-family: "MigraMedium";
+	src: url("../assets/font/Migra-Medium.ttf");
+	}
+@font-face {
+	font-family: "MigraExtraBold";
+	src: url("../assets/font/Migra-Extrabold.ttf");
+	}
+@font-face {
+	font-family: "MigraBold";
+	src: url("../assets/font/Migra-Bold.ttf");
+	}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../assets/font/icomoon/fonts/icomoon.eot?2qsxhc');
+  src:  url('../assets/font/icomoon/fonts/icomoon.eot?2qsxhc#iefix') format('embedded-opentype'),
+    url('../assets/font/icomoon/fonts/icomoon.ttf?2qsxhc') format('truetype'),
+    url('../assets/font/icomoon/fonts/icomoon.woff?2qsxhc') format('woff'),
+    url('../assets/font/icomoon/fonts/icomoon.svg?2qsxhc#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'icomoon2';
+  src:  url('../assets/font/icomoon2/fonts/icomoon.eot?2qsxhc');
+  src:  url('../assets/font/icomoon2/fonts/icomoon.eot?2qsxhc#iefix') format('embedded-opentype'),
+    url('../assets/font/icomoon2/fonts/icomoon.ttf?2qsxhc') format('truetype'),
+    url('../assets/font/icomoon2/fonts/icomoon.woff?2qsxhc') format('woff'),
+    url('../assets/font/icomoon2/fonts/icomoon.svg?2qsxhc#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="iccuore-"], [class*=" iccuore-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon2' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-borsa:before {
+  content: "\e01";
+}
+.icon-cuore:before {
+  content: "\e02";
+}
+.icon-profilo:before {
+  content: "\e03";
+}
+.icon-instagram:before {
+  content: "\e04";
+}
+
+.iccuore-pieno:before {
+  content: "\e900";
+}
+
+::-moz-selection  {
+background: #ef7daf;
+color: #fffafc;
+}
+::selection   {
+background: #ef7daf;
+color: #fffafc;
+}
+
+
+body{
+	background-color: #3a0006;
+	width: 100%;
+	height: fit-content;
+	overflow: hidden; /* Hide scrollbars */
+}
+
+a{
+	text-decoration: none;
+}
+
+button:focus, button:active{
+	outline: inherit;
+	border: none;
+}
+
+::-webkit-scrollbar {
+display: none;
+}
+
+
+.navbar ul{
+	padding: 0px;
+	text-align: center;
+	display: block;
+	list-style-type:none;
+	margin-top: 55px;
+	margin-bottom: 0px;
+}
+
+.navbar li{
+	display: inline;
+}
+
+
+
+.navbutton{
+	margin: 25px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: inherit;
+	border: none;
+	color: #f7e7ef;
+	font-family: MigraRegular;
+	font-size: 15px;
+	height: 30px;
+  width: 60px;
+}
+
+.navbutton:hover{
+	font-family: MigraSemibold;
+	color:#ef7daf;
+}
+
+.navbutton:focus{
+	outline: none;
+}
+
+.navlinea{
+	width: 550px;
+	overflow: hidden;
+	margin: auto;
+}
+
+
+
+
+
+
+.home{
+	position: relative;
+  margin-top: 12%;
+  height: 300px;
+	margin-bottom: 12%;
+}
+
+.lusting{
+	position: absolute;
+	top: -190px;
+	width: 100%;
+}
+
+.lusting p{
+	font-family: MigraSemibold;
+  color: #f7e7ef;
+  font-size: 240px;
+	margin: 0px;
+	text-align: center;
+}
+
+.home img{
+	margin-top: 12%;
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sexthsense{
+	position: absolute;
+	top: 194px;
+	width: 100%;
+}
+
+.sexthsense p{
+	font-family: MigraSemibold;
+  color: #f7e7ef;
+  font-size: 90px;
+	margin: 0px;
+	text-align: center;
+}
+
+.icone{
+	font-size: 16px;
+	color: #f7e7ef;
+	display: inline;
+	float: right;
+	position: fixed;
+	top: 68px;
+	right: 74px;
+	z-index: 1;
+}
+
+
+.icon-cuore:hover{
+	color: #ef7daf
+}
+
+.contentHome{
+	display: block;
+	width: 100%;
+}
+
+.contentHome .homedx{
+	float: right;
+}
+
+
+.valori{
+	display: block;
+	margin: auto;
+	width: 1000px;
+	margin-bottom: 10%;
+}
+
+
+.homesx img, .homedx img{
+	display: inline-block;
+	height: 450px;
+	vertical-align: top;
+}
+
+.homedx{
+	margin-top: 20%;
+	margin-bottom: 20%;
+}
+
+.DXtxtcontainer{
+	width: 530px;
+	display:inline-block;
+}
+
+.SXtext, .DXtext{
+	display: inline-block;
+	margin-left: 10%;
+  margin-top: 8%;
+}
+
+.DXtext{
+	margin-left: 0%;
+}
+
+.homesx h1, .homedx h1{
+	text-align: center;
+	color: #f7e7ef;
+	font-family: MigraSemibold;
+	font-size: 30px;
+	margin-top: 3%;
+}
+
+
+.homesx p, .homedx p{
+	text-align: center;
+	color: #f7e7ef;
+	font-family: AvenirRegular;
+	font-size: 20px;
+	margin-top: 5%;
+}
+
+.homedx img{
+  margin-left: 56px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contentDating1{
+	margin-bottom: 5%;
+}
+
+
+.datingTitle, .shopTitle, .contactTitle{
+	letter-spacing: 0.7px;
+	font-family: MigraMedium;
+  text-align: center;
+  font-size: 35px;
+  color: #f7e7ef;
+}
+
+.datingimg{
+	width:100%;
+}
+
+.datingimg img{
+	width: 60%;
+	display: block;
+	margin: auto;
+}
+
+.lustingRuotato{
+	display: inline;
+	position: fixed;
+  left: 50px;
+  top: 350px;
+	z-index: 1;
+}
+
+.lustingRuotato img{
+	height: 100px;
+	width: 37.15px!important;
+}
+
+.textDating{
+	text-align: center;
+	color: #f7e7ef;
+	font-family: AvenirRegular;
+	font-size: 20px;
+	margin: auto;
+	margin-top: 5%;
+	width: 700px;
+
+}
+
+.contentDating2{
+	height: 955px;
+  z-index: 0;
+  display: block;
+  margin: auto;
+  width: 950px;
+	margin-bottom: 7%;
+}
+
+
+.datingimg2{
+	height: 335px;
+	width: 670px;
+	margin: auto;
+	overflow: hidden;
+	vertical-align: top;
+}
+
+
+.datingimg2 img{
+	width: 670px;
+}
+
+
+.textDating2{
+	width: 293px;
+	height: fit-content;
+	color: #f7e7ef;
+	display: inline-block;
+	margin-bottom: 5%;
+}
+
+.textDating3{
+	width: 293px;
+	height: fit-content;
+	color: #f7e7ef;
+	display: inline-block;
+	margin-bottom: 5%;
+	float: right;
+}
+
+.textDating2 h1, .textDating3 h1{
+	font-size: 25px;
+	font-family: MigraSemibold;
+	margin-left: 15%;
+
+}
+
+.textDating2 p, .textDating3 p {
+	font-size: 16px;
+	font-family: AvenirRegular;
+	width: fit-content;
+	height: fit-content;
+	margin: 0px;
+	margin-top: 5%;
+	margin-left: 15%;
+}
+
+.textDating2 img{
+	height: 505px;
+	display: inline-block;
+	float: right;
+	position: absolute;
+	top: 1427px;
+	left: 765px;
+}
+
+
+.croce img{
+	height: 20px;
+  position: absolute;
+  left: 445px;
+  top: 1565px;
+}
+
+.croce1 img{
+	height: 20px;
+  position: absolute;
+  left: 445px;
+  top: 1637px;
+}
+
+.croce2 img{
+	height: 20px;
+  position: absolute;
+  left: 445px;
+  top: 1757px;
+}
+
+.spunta img{
+	height: 20px;
+  position: absolute;
+  left: 820px;
+  top: 1565px;
+}
+
+.spunta1 img{
+	height: 20px;
+  position: absolute;
+  left: 820px;
+  top: 1637px;
+}
+
+.spunta2 img{
+	height: 20px;
+  position: absolute;
+  left: 820px;
+  top: 1757px;
+}
+
+
+.textDating2opaco {
+  margin-top: 8%!important;
+	opacity: 0.5;
+}
+
+.downloadText{
+	display: block;
+	margin: auto;
+	margin-top: 8%;
+	width: 670px;
+}
+
+.downloadButton{
+	font-family: MigraBold;
+	font-size: 20px;
+	background-color: #f7e7ef;
+	border: none;
+	color: #3a0006;
+	border-radius: 30px;
+	width: 235px;
+	height: 45px;
+	padding-top: 5px;
+	text-align: center;
+	margin-top: 18%;
+}
+
+.heartButton{
+	font-family: MigraBold;
+  font-size: 20px;
+  background-color: #f7e7ef;
+  border: none;
+  color: #3a0006;
+  border-radius: 30px;
+  width: 312px;
+  height: 45px;
+  padding-top: 5px;
+  text-align: center;
+	margin-top: 18%;
+}
+
+
+.contentShop1{
+	margin-bottom: 9%;
+}
+
+.shopimg{
+	width: 61%;
+	margin: auto;
+	display: block;
+	height: 388px;
+	margin-bottom: 20%;
+}
+.shopimg img{
+	width: 61%;
+	position: absolute;
+}
+
+.scritteShop1{
+	margin-left: 20.5%;
+  margin-top: 2%;
+}
+
+.productShop1{
+	font-family: MigraSemibold;
+	color: #f7e7ef;
+	font-size: 35px;
+	margin: 0px;
+	height: 45px;
+}
+
+.prezzoShop1 p {
+	font-family: AvenirRegular;
+	color: #ef7daf;
+	font-size: 25px;
+	margin: 0px;
+	margin-top: 1%;
+}
+
+.shopimg2 img{
+  width: 61%;
+	display: block;
+	margin: auto;
+}
+
+.shopAltro{
+	display: block;
+	margin: auto;
+	width: 914px;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+
+.shopimg3{
+	display: inline-block;
+	margin-right: 7%;
+}
+
+.shopimg4{
+	display: inline-block;
+}
+
+
+.shopimg3 img, .shopimg4 img{
+	width: 258.44px;
+}
+
+.scritteShop2{
+	font-family: MigraSemibold;
+	font-size: 25px;
+	color: #f7e7ef;
+	margin: 0px;
+	margin-top: 7%;
+}
+
+.prezzoShop2{
+	font-family: AvenirRegular;
+	font-size: 20px;
+	color: #ef7daf;
+	margin: 0px;
+}
+
+.contentcontact{
+	width: 100%;
+}
+
+.contentcontact img{
+	display: block;
+	margin: auto;
+	width: 61%;
+}
+
+.introContact {
+	text-align: center;
+  color: #f7e7ef;
+  font-family: AvenirRegular;
+  font-size: 15px;
+  margin-top: 5%;
+}
+
+.inputContact{
+	display: block;
+  margin: auto;
+  width: 580px;
+	margin-top: 5%;
+	margin-bottom: 7%;
+}
+
+
+.inputContact p{
+	font-family: AvenirRegular;
+  font-size: 15px;
+  color: #f7e7ef;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.riga1 div{
+	display: inline-block;
+}
+
+.riga1 input{
+	padding: 10px;
+	color: #f7e7ef;
+	background-color: inherit;
+	border: 1px solid #f7e7ef;
+	height: 35px;
+  width: 270px;
+	border-radius: 3px;
+}
+
+.email{
+float:right;
+}
+
+.riga2, .riga3{
+	margin-top: 3%;
+}
+
+.riga2 input{
+	padding: 10px;
+	color: #f7e7ef;
+	background-color: inherit;
+	border: 1px solid #f7e7ef;
+	height: 35px;
+  width: 580px;
+	border-radius: 3px;
+}
+
+
+.riga3 textarea{
+	padding: 10px;
+	color: #f7e7ef;
+	background-color: inherit;
+	border: 1px solid #f7e7ef;
+	height: 200px;
+  width: 580px;
+	resize: none;
+	border-radius: 3px;
+}
+
+.riga3 textarea:focus, .riga1 input, .riga2 input{
+	outline: inherit;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #f7e7ef;
+  background-color: rgba(239, 125, 175, 0.3);
+}
+
+.contactBtnContainer{
+	display: block;
+	margin: auto;
+	width: 350px;
+  margin-top: 3%;
+}
+
+
+
+
+
+
+
+.centraProduct{
+	display: block;
+	margin:auto;
+	width: 1120px;
+	margin-bottom: 10%;
+}
+
+.productButton, .contactButton, .messaggioButton{
+	font-family: MigraBold;
+	font-size: 20px;
+	background-color: #f7e7ef;
+	border: none;
+	color: #3a0006;
+	border-radius: 30px;
+	width: 350px;
+	height: 45px;
+	left: 55%;
+	margin-top: 5%;
+	padding-top: 5px;
+	text-align: center;
+}
+
+
+.productButton:hover, .downloadButton:hover, .contactButton:hover, .messaggioButton:hover, .heartButton:hover{
+	background-color: #ef7daf;
+}
+
+.textShop2 h1{
+	font-family: MigraRegular;
+	font-size: 30px;
+	color: #f7e7ef;
+	margin-top: 0px;
+  margin-bottom: 5%;
+  height: 30px;
+}
+
+
+.contentProduct{
+	display: inline-block;
+	float: right;
+}
+
+.contentProduct p{
+	vertical-align: top;
+	font-family: AvenirRegular;
+	color: #f7e7ef;
+  font-size: 15px;
+	width: 525px;
+}
+
+
+
+/*--------------------------------style pagine shop singole----------------------------------------------*/
+.slides{
+	width: 527px;
+	display: inline-block;
+}
+
+
+.row{
+  display: inline-block;
+  margin-top: 0.7%;
+  margin-left: 4%;
+}
+
+.container {
+  display: inline-block;
+  position: relative;
+  width: 380px;
+  float: left;
+	height: 490px;
+	overflow: hidden;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.cursor {
+  cursor: pointer;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.column {
+  width: 105px;
+  height: 105px;
+  margin: 10px;
+  overflow: hidden;
+	background-color: #ef7daf;
+	opacity: 1;
+}
+
+.column img{
+  margin-top: -10px;
+}
+
+
+
+.demo:hover, .demo:active{
+	opacity: 0.6;
+}
+
+
+
+.taglia{
+
+}
+
+.taglia p{
+	display: inline-block;
+	margin-right: 3%;
+	width: 50px;
+}
+
+.taglia button{
+	font-family: MigraSemibold;
+	font-size: 18px;
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+	text-align: center;
+	padding: 2px;
+	background-color: #f7e7ef;
+	border: none;
+	border-radius: 30px;
+}
+
+.taglia button:hover{
+	background-color: #ef7daf;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+.taglia label{
+	display: block;
+  font-family: AvenirRegular;
+  color: #f7e7ef;
+  font-size: 15px;
+	margin-bottom: 1%;
+	}
+
+.taglia select{
+	height: 35px;
+	width: 200px;
+	background-color: #f7e7ef;
+	border-radius: 5px;
+	padding-left: 1%;
+}
+
+.taglia select:focus{
+	outline: inherit;
+
+}
+
+.taglia option{
+	font-family: AvenirRegular;
+  color: #3a0006;
+  font-size: 15px;
+}
+
+form{
+	margin-bottom: 5%;
+}
+
+.descrizione{
+	margin-bottom: 10%;
+}
+
+.textShop2{
+	vertical-align: top;
+}
+
+.messaggio{
+	margin-bottom: 12%;
+	margin-top: 12%;
+}
+
+.messaggio1{
+	font-family: MigraSemibold;
+	font-size: 30px;
+	color: #f7e7ef;
+	margin-top: 0px;
+  margin-bottom: 10%;
+  height: 30px;
+	text-align: center;
+}
+
+.messaggio2{
+	font-family: MigraRegular;
+	font-size: 25px;
+	color: #f7e7ef;
+	margin-top: 0px;
+  margin-bottom: 5%;
+  height: 30px;
+	text-align: center;
+}
+
+.messaggioButton{
+	display: block;
+	margin: auto;
+}
+
+.shopimg2 span{
+	font-size: 20px;
+	position: absolute;
+	left: 1185px;
+	top: 1510px;
+	color: #3a0006;
+}
+
+.iccuore-pieno{
+	color: #ef7daf!important;
+	display: none;
+}
+
+.shopimg2 span:active{
+	color: #ef7daf;
+}
+
+.shopimg3 span, .shopimg4 span{
+	font-size: 20px;
+	position: absolute;
+	margin-left: 225px;
+  margin-top: 310px;
+	color: #3a0006;
+}
+
+
+.container span{
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 345px;
+	font-size: 20px;
+	color: #3a0006;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footerHome{
+	height: 300px;
+	margin-top: 8%;
+}
+
+.footer{
+	height: 300px;
+}
+
+.footer img, .footerHome img{
+	display: block;
+	margin: auto;
+}
+
+.scritteFooter{
+  margin-top: 3%;
+  color: #f7e7ef;
+}
+
+.logoFooter img{
+	width: 6%;
+  display: inline-block;
+  position: absolute;
+  left: 160px;
+}
+
+.lustingFooter{
+	margin: 0px;
+	height: 40px;
+}
+
+.sexthsenseFooter{
+	margin: 0px;
+	font-size: 10px;
+}
+
+.footerCentro{
+	display: block;
+	margin: auto;
+	width: 400px;
+}
+
+
+.contattiFooter{
+	display: inline-block;
+}
+
+.contattiTitle{
+	letter-spacing: 1px;
+	font-family: MigraSemibold;
+  margin: 0px;
+  font-size: 22px;
+}
+
+.contattiText{
+	margin: 0px;
+	line-height:2;
+	font-family: AvenirRegular;
+	font-size: 13px;
+}
+
+.contattiSocial{
+	margin-top: 10%;
+  font-size: 22px;
+}
+
+.contattiSocial p{
+	font-family: AvenirRegular;
+  display: inline;
+  font-size: 13px;
+  margin-left: 7%;
+  position: relative;
+  top: -6px;
+}
+
+.menuFooter{
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+}
+
+.menuTitle{
+	letter-spacing: 1px;
+	font-family: MigraSemibold;
+  margin: 0px;
+  font-size: 22px;
+}
+
+.menuText{
+	margin: 0px;
+	line-height:2;
+	font-family: AvenirRegular;
+	font-size: 13px;
+}
+
+.simulate_download{
+	background-color: #f7e7ef;
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	top: 693px;
+}
+
+.exe{
+	height: 60px;
+	width: 210px;
+	display: inline-block;
+}
+
+.exe img{
+	height: 20px;
+	margin:18px;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+.exe p{
+	display: inline-block;
+	font-family: AvenirRegular;
+	font-size: 15px;
+	color:#1c1a17;
+	vertical-align: middle;
+}
+
+.lineaexe{
+	display: inline-block;
+}
+
+.lineaexe img{
+	height: 30px;
+}
+
+.frecciaexe{
+		display: inline-block;
+}
+
+.frecciaexe img{
+	height: 15px;
+}
+
+
+
+.closedownload{
+	display: inline-block;
+	float: right;
+	padding:19px;
+	color:#a5000a;
+	cursor: default;
+}
